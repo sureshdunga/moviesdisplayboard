@@ -1,6 +1,7 @@
+/* global Promise, $ */
+
 import Service from "@ember/service";
 import config from "movies-display-board/config/environment";
-import { alias } from "@ember/object/computed";
 
 export default Service.extend({
   auth_key: config.APP.tmdb_auth_key,

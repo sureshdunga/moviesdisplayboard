@@ -17,6 +17,10 @@ You will need the following things properly installed on your computer.
 * `cd movies-display-board`
 * `npm install`
 
+## Configuration
+
+This application uses [The MovieDB](https://www.themoviedb.org/documentation/api)'s API for resources. To use TMDB's api, you'll require to mention `tmdb_auth_key` at `config/environment.js` file. 
+
 ## Running / Development
 
 * `ember serve`
@@ -37,9 +41,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
