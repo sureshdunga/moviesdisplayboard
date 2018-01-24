@@ -5,7 +5,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'movies-display-board',
     environment,
-    rootURL: '/',
+    rootURL: 'moviesdisplayboard/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
