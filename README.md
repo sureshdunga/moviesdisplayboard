@@ -1,4 +1,4 @@
-# movies-display-board
+# Movies display board
 
 Lists popular actors and their movies.
 
@@ -13,7 +13,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/sureshdunga/moviesdisplayboard.git` this repository
 * `cd movies-display-board`
 * `npm install`
 
