@@ -1,0 +1,68 @@
+@import "base/reset.css";
+@import "base/grids.css";
+@import "base/settings.css";
+
+.ActorsList {
+
+}
+
+.ListActors_item {
+    width: 60%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 12px;
+    & .actorName {
+      font-size: 25px;
+    }
+    & a {
+      text-decoration: none;
+      color: #000;
+    }
+    & a:hover {
+      color: red;
+    }
+}
+.actorDetail {
+
+}
+.moviesList {
+  width: 60%;
+}
+
+.moviesList__item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #000;
+  font-size: 12px;
+  & .title {
+    font-size: 20px;
+  }
+  & a {
+    text-decoration: none;
+    color: #000;
+  }
+  & a:hover {
+    color: #17d917;
+  }
+  & a:visted {
+    color: green;
+  }
+  & h2 {
+    font-weight: normal;
+  }
+}
+
+.movieDetail {
+  margin: 5px;
+  padding: 10px;
+  width: 60%;
+
+  & h4 span{
+    font-weight: normal;
+  }
+}
+
+.loading {
+  height: 100vh;
+}

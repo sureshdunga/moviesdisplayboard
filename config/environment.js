@@ -21,6 +21,8 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      tmdb_auth_key: `ccb30a40e73648d595ceacc3c5b6b111`,
+      tmdb_service_url: `https://api.themoviedb.org/3`
     }
   };
 
