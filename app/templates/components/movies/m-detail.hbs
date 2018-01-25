@@ -4,5 +4,21 @@
     <h4>Released on: <span>{{movie.release_date}}</span></h4>
     <h4>Rating: <span>{{movie.vote_average}}</span></h4>
   </div>
+  <div class="genreList">
+    <h4>Genre:
+      {{#each movie.genres as |genre|}}
+        <span>{{genre.name}}</span>
+      {{/each}}
+    </h4>
+  </div>
+  {{#if trailerObjects}}
+    <div class="trailerList">
+      <h4>Trailer:
+        {{#each trailerObjects as |trailer|}}
+          <span><a href="{{trailer.url}}">{{trailer.site}}</a></span>
+        {{/each}}
+      </h4>
+    </div>
+  {{/if}}
   <p>{{movie.overview}}</p>
 </div>

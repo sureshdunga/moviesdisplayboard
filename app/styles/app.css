@@ -61,6 +61,19 @@
   & h4 span{
     font-weight: normal;
   }
+  & .genreList span:not(:last-child)::after{
+    content: ",";
+  }
+  & .trailerList span:not(:last-child)::after{
+    content: ",";
+  }
+  & a {
+    text-decoration: none;
+    color: #000;
+  }
+  & a:hover {
+    color: #8310ec;
+  }
 }
 
 .loading {
