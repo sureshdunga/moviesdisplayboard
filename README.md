@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone https://github.com/sureshdunga/moviesdisplayboard.git` this repository
 * `cd movies-display-board`
-* `npm install`
+* `npm install` .
 
 ## Configuration
 
